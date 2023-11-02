@@ -1,0 +1,89 @@
+
+body {
+    background-image: url("../Res/images/inventorybg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left; /* Align text to left */
+    height: 100vh;
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+}
+
+.welcome-txt {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-decoration: solid;
+    font-style: bold;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Adjust this property */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: #00425A;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background: linear-gradient(120deg, #1f8a70, #00425a, #00425a, #1f8a70);
+}
+
+.signup_link {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-color: #2691d1;
+    transition: .5s;
+}
+
+.center {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    color: #00425a;
+    width: 600px;
+    margin-left: 10%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add box shadow */
+}
+.tag-line{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-size: 15px;
+}
+.role{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.footer {
+    background-color: #1f8a70; 
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
